@@ -6,9 +6,8 @@ import { useTheme } from "./theme-provider";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
   { href: "/work", label: "Work" },
-  { href: "/writing", label: "Writing" },
+  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -18,14 +17,14 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-sm">
-      <nav className="mx-auto flex max-w-2xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-2xl items-center justify-between px-5 py-4 sm:px-6">
         <Link
           href="/"
           className="font-mono text-sm font-medium tracking-tight"
         >
           as.
         </Link>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4 sm:gap-6">
           {links.map(({ href, label }) => (
             <Link
               key={href}

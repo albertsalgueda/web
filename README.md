@@ -2,7 +2,7 @@
 
 Personal website for Albert Salgueda. One page, full black, system SF fonts. Built with Next.js (App Router) and Tailwind CSS v4, deployed on Vercel.
 
-The number on the page is age in years to 20 decimal places, ticking every animation frame. Hover (or press, on touch) breaks it down into decades, years, days, and hours lived instead.
+The number on the page is age in years to 20 decimal places, ticking every animation frame. Hover (or press, on touch) switches the same counter to total days lived instead.
 
 ## Setup
 
@@ -29,5 +29,5 @@ src/
     layout.tsx     # Root layout + metadata
     globals.css    # Tailwind + fonts
   components/
-    age.tsx        # Live age counter / lived breakdown on hover
+    age.tsx        # Live age counter, in years / days on hover
 ```

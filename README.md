@@ -1,6 +1,8 @@
 # albert-website
 
-Personal website for Albert Salgueda. Built with Next.js (App Router), Tailwind CSS v4, and deployed on Vercel.
+Personal website for Albert Salgueda. One page, full black, system SF fonts. Built with Next.js (App Router) and Tailwind CSS v4, deployed on Vercel.
+
+The number on the page is age in years to 20 decimal places, ticking every animation frame. Hover (or press, on touch) flips it to ETD — estimated time of departure, the years remaining to an estimated 90.
 
 ## Setup
 
@@ -15,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 - **Framework:** Next.js 16 (App Router, SSG)
 - **Styling:** Tailwind CSS v4
-- **Font:** Geist (via next/font)
+- **Fonts:** System stack (SF Pro / SF Mono on Apple devices)
 - **Deploy:** Vercel
 
 ## Structure
@@ -23,14 +25,9 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 src/
   app/
-    page.tsx          # Home / Hero
-    about/page.tsx    # About
-    work/page.tsx     # Work / Projects
-    writing/page.tsx  # Writing (placeholder for MDX)
-    contact/page.tsx  # Contact links
-    layout.tsx        # Root layout
-    globals.css       # Global styles + theme variables
+    page.tsx       # The page
+    layout.tsx     # Root layout + metadata
+    globals.css    # Tailwind + fonts
   components/
-    header.tsx        # Navigation + theme toggle
-    theme-provider.tsx # Dark/light mode context
+    age.tsx        # Live age counter / ETD on hover
 ```

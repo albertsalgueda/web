@@ -3,19 +3,6 @@ import { Age } from "@/components/age";
 const WHATSAPP_URL =
   "https://wa.me/14303340070?text=Hi%20Jarvis%2C%20I%27d%20like%20to%20talk%20with%20Albert%20about%20agents.";
 
-const projects = [
-  {
-    name: "agent memory",
-    blurb: "long-term memory for your agents",
-    href: "https://memory.albertsalgueda.com",
-  },
-  {
-    name: "bruixola",
-    blurb: "an agent that thinks for you",
-    href: "https://bruixola.albertsalgueda.com",
-  },
-];
-
 const links = [
   { label: "x", href: "https://x.com/albertsalgueda" },
   { label: "github", href: "https://github.com/albertsalgueda" },
@@ -45,27 +32,10 @@ export default function Home() {
         , san francisco.
       </p>
       <p className="mt-2 text-sm leading-relaxed text-neutral-500">
-        prev. co-founded altan — a multi-agent platform used by elevenlabs
-        &amp; glovo.
+        prev. co-founded altan — full-stack coding agent.
       </p>
 
-      <ul className="mt-10 space-y-2 text-sm leading-relaxed">
-        {projects.map((p) => (
-          <li key={p.name}>
-            <a
-              href={p.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-neutral-200 underline decoration-neutral-700 underline-offset-4 transition-colors hover:decoration-neutral-300"
-            >
-              {p.name}
-            </a>
-            <span className="text-neutral-500"> — {p.blurb}</span>
-          </li>
-        ))}
-      </ul>
-
-      <nav aria-label="links" className="mt-12 flex flex-wrap gap-x-4 gap-y-2">
+      <nav aria-label="links" className="mt-10 flex flex-wrap gap-x-4 gap-y-2">
         {links.map((l) => (
           <a
             key={l.label}

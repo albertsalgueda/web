@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 const title = "albert salgueda";
-const description = "building ai agents & creative ai at krea, san francisco.";
+const description =
+  "building melso. ai agents & creative ai at krea, san francisco.";
 const url = "https://albertsalgueda.com";
 
 export const metadata: Metadata = {

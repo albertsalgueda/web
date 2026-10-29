@@ -31,6 +31,18 @@ export default function Home() {
         </a>
         , san francisco.
       </p>
+      <p className="mt-2 text-sm leading-relaxed text-neutral-400">
+        building{" "}
+        <a
+          href="https://melso.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-neutral-200 underline decoration-neutral-700 underline-offset-4 transition-colors hover:decoration-neutral-300"
+        >
+          melso
+        </a>{" "}
+        — ai tax agent for spain.
+      </p>
       <p className="mt-2 text-sm leading-relaxed text-neutral-500">
         prev. co-founded altan — full-stack coding agent.
       </p>

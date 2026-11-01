@@ -20,18 +20,6 @@ export default function Home() {
       </div>
 
       <p className="mt-10 text-sm leading-relaxed text-neutral-400">
-        ai agents &amp; creative ai at{" "}
-        <a
-          href="https://krea.ai"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-neutral-200 underline decoration-neutral-700 underline-offset-4 transition-colors hover:decoration-neutral-300"
-        >
-          krea
-        </a>
-        , san francisco.
-      </p>
-      <p className="mt-2 text-sm leading-relaxed text-neutral-400">
         building{" "}
         <a
           href="https://melso.ai"
@@ -44,7 +32,8 @@ export default function Home() {
         — ai tax agent for spain.
       </p>
       <p className="mt-2 text-sm leading-relaxed text-neutral-500">
-        prev. co-founded altan — full-stack coding agent.
+        prev. ai agents &amp; creative ai at krea. co-founded altan — full-stack
+        coding agent.
       </p>
 
       <nav aria-label="links" className="mt-10 flex flex-wrap gap-x-4 gap-y-2">

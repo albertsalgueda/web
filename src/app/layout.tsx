@@ -3,7 +3,7 @@ import "./globals.css";
 
 const title = "albert salgueda";
 const description =
-  "building melso. ai agents & creative ai at krea, san francisco.";
+  "building melso — ai tax agent for spain. prev. krea, altan.";
 const url = "https://albertsalgueda.com";
 
 export const metadata: Metadata = {
